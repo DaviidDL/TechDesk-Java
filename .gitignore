@@ -13,3 +13,25 @@ config-local.properties
 Thumbs.db
 .vscode/
 .idea/
+
+# Dependencias del front-end
+frontend/node_modules/
+
+# Archivos generados por Vite
+frontend/dist/
+
+# Archivos generados por Maven y Java
+target/
+*.class
+
+# Configuración local y credenciales
+.env
+.env.*
+!.env.example
+config-local.properties
+
+# Archivos del sistema operativo y del editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
